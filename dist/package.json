@@ -1,0 +1,11 @@
+{
+    "name": "index-db-package",
+    "version": "1.0.2",
+    "description": "The browser database indexedDB is encapsulated",
+    "main": "./lib/index-db-package.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "author": "fuloliya",
+    "license": "ISC"
+}

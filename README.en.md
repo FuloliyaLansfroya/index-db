@@ -13,7 +13,7 @@ npm install index-db-package
 
 ```js
 import IndexDB from 'index-db-package'
-const database = new IndexDB
+const database = new IndexDB('database')
 const data = [
   { name: "Sales", max: 6500 },
   { name: "Administration", max: 16000 },
@@ -38,7 +38,7 @@ const createArr = [
 ];
 database.open().then(()=>{
   database.createSheet(createArr).then(()=>{
-    test.set("customers", data).then(() => {})
+    database.set("customers", data).then(() => {})
   })
 })
 ```

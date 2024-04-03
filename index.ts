@@ -211,7 +211,7 @@ class IndexDB {
    * @param {boolean} isVague 是否开启模糊搜索
    * @returns Promise
    */
-  search (storeName: string, index: string, search: any, isVague = false) {
+  search (storeName: string, index: string, search: any, isVague: boolean = false) {
     if (!this.isOpen) {
       throw Error('The database is not open, this method cannot be used!');
     }
