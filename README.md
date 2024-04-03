@@ -38,7 +38,7 @@ const createArr = [
   },
 ];
 database.open().then(()=>{
-  database.createSheet(createArr).then(()=>{
+  database.createDataSheet(createArr).then(()=>{
     database.set("customers", data).then(() => {})
   })
 })
