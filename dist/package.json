@@ -1,6 +1,6 @@
 {
     "name": "index-db-package",
-    "version": "1.0.19",
+    "version": "1.1.0",
     "description": "The browser database indexedDB is encapsulated",
     "main": "./lib/index-db-package.js",
     "directories": {
